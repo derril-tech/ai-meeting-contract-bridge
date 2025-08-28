@@ -1,0 +1,31 @@
+{
+  "name": "ai-meeting-contract-bridge",
+  "version": "1.0.0",
+  "description": "Bridge meeting discussions to actionable contracts: auto-generate draft agreements from decisions, tasks, and commitments",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "workers/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "clean": "turbo run clean",
+    "docker:build": "turbo run docker:build",
+    "docker:push": "turbo run docker:push"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
+  }
+}
+

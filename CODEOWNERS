@@ -1,0 +1,31 @@
+# Global owners
+* @derri
+
+# Frontend
+/apps/web/ @derri
+/packages/ui/ @derri
+
+# Backend API
+/apps/api/ @derri
+/packages/database/ @derri
+/packages/auth/ @derri
+
+# Workers (NLP/MLE)
+/workers/ @derri
+
+# Infrastructure
+/.github/ @derri
+/docker/ @derri
+/terraform/ @derri
+
+# Documentation
+/docs/ @derri
+*.md @derri
+
+# Configuration
+package.json @derri
+turbo.json @derri
+tsconfig.json @derri
+.eslintrc.* @derri
+.prettierrc.* @derri
+
